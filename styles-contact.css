@@ -73,7 +73,8 @@ background-position: center;
 
 
 .center {
-    width: 800px; /* This is the width of the padding*/
+    width: 800px; /* This is the width of the padding */
+	min-width: 400px; /* This is for responsiveness */
 	height: 100px; /* This is the height of the padding */
 	padding: 2%; /* This is how much the padding is off from the top of the screen */
     margin: 75px auto;
@@ -83,6 +84,7 @@ background-position: center;
 
    
 #logo {
+	width: 50%; /* This is for responsiveness
     margin-bottom: 20px; /* This changes where h1,h2 are located */
 
 	text-align: center;
